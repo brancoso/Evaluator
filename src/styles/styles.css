@@ -1,0 +1,46 @@
+* {
+    background-color: rgba(252, 252, 252, 0.722);
+    user-select: none;
+}
+
+#hub1 {
+    font-family: 'REM', sans-serif;
+}
+
+#cbs {
+    font-family: 'REM', sans-serif;
+    text-align: center;
+}
+
+#login {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 17;
+    font-weight: bold;
+}
+
+#senha {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 17;
+    font-weight: bold;
+}
+
+#submit {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 17;
+    font-weight: bold;
+}
+
+#homelobby {
+    text-align: center;
+    font-weight: bold;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//styles/styles.css">
+    <link rel="stylesheet" href="/src/utils.js">
+    <title>Evaluator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=REM:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    
+<header id="cbs">
+    <h1>validação de email</h1>
+</header>
+
+<div id="hub1">
+    <form>
+        <h2>LOGIN</h2>
+        <input type="text" placeholder="LOGIN" id="login">
+        <input type="password" placeholder="SENHA" id="senha">
+        <input type="SUBMIT" id="submit" onclick="logar(); return false">
+    </form>
+</div>
+
+<script>
+
+function logar (){
+    var login = document.getElementById('login').value;
+    var senha = document.getElementById('senha').value;
+
+     if(login === "gustavo" && senha === "1234"){
+        alert('Validação Bem Sucedida');
+        location.href = "home.html";
+    } else{
+        alert('Tente Novamente');
+    }
+}
+</script>
+
+</body>
+</html>
